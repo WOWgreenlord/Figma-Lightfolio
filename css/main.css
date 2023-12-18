@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+}
+
+body {
+  font-family: "Inter";
+}
+
+.header {
+  height: 76px;
+  background-color: aquamarine;
+}
+.header .header__container {
+  max-width: 1248px;
+  width: 100%;
+  height: 100%;
+  background-color: lightcoral;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.header .header__container-menu {
+  display: flex;
+  align-items: center;
+  background-color: lightgreen;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header .header__container-list {
+  display: flex;
+  gap: 40px;
+}
+.header .header__container-link {
+  color: #525252;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.18px;
+}
+
+.introduction {
+  color: #000;
+  font-size: 64px;
+  line-height: 73.6px;
+  letter-spacing: 2.56px;
+}
+.introduction .introduction__container {
+  background-color: lightseagreen;
+  max-width: 1248px;
+  width: 100%;
+  margin: 0 auto;
+}
+.introduction .container__cards {
+  max-width: 825px;
+  margin-top: 126px;
+}
+.introduction .introduction__container-subtitle {
+  color: #757575;
+}
+
+.featureWork {
+  margin-top: 182px;
+}
+.featureWork .featureWork__container {
+  max-width: 1248px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 31px;
+}
+.featureWork .container__text {
+  font-size: 16px;
+  line-height: 23.4px;
+  letter-spacing: 0.54px;
+}
+.featureWork .container__date {
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: 0.54px;
+  color: #757575;
+}
+.featureWork .featureWork__container {
+  background-color: lightcoral;
+}
+.featureWork .container__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.featureWork .container__card,
+.featureWork .card-small {
+  max-width: 612px;
+  flex-shrink: 0;
+}
+.featureWork .container__card-text {
+  height: 104px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+.featureWork .container__card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 15px;
+}/*# sourceMappingURL=main.css.map */
